@@ -49,7 +49,7 @@ public class BoardPrinter {
     }
 
     private static String createStroke(int strokeLength, char c) {
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         IntStream.range(0,strokeLength).forEach(i -> sb.append(c));
         return sb.toString();
     }
